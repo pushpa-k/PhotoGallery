@@ -1,0 +1,52 @@
+
+.photoGallery {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.photoGallery--header {
+  text-align: center;
+}
+
+.leftArrow,
+.rightArrow {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.rightArrow {
+  right: 20%;
+}
+
+.leftArrow {
+  left: 20%;
+}
+
+.imageContainer {
+  display: none;
+}
+
+.imageContainer--active {
+  display: block;
+}
+
+.imageContainer img {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  height: 450px;
+}
+
+.imageCaption {
+  width: 70%;
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+}
