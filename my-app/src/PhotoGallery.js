@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import './PhotoGallery.css';
 import Photo from './Photo';
 
-/* TODO: Add swipe functionality
-   load control background styles after img load
-*/
-
 class PhotoGallery extends Component {
   constructor (props) {
     super(props);

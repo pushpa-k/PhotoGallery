@@ -26,6 +26,10 @@
   background: rgba(255, 255, 255, 0.4);
   border-radius: 100%;
   z-index: 1; }
+  .leftArrow:hover,
+  .rightArrow:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2); }
   .leftArrow:before,
   .rightArrow:before {
     content: "";
